@@ -1,0 +1,14 @@
+name: OpRemover
+version: 1.4
+main: me.rodal1.opremover.Main
+author: Rodal1
+description: Removes operator status from operator's after leaving the server. (For Security)
+softdepend: [PlaceholderAPI]
+
+commands:
+  opremover:
+    description: Main command.
+    usage: /<command>
+  oprecovery:
+    description: Password to recover op status.
+    usage: /<command>
